@@ -1,0 +1,18 @@
+HTML
+    <div class="brand">
+                <a href="#">
+                    <img src="img/logo1.JPG" alt="">
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="img/ship.jpg">Horizon</a>
+                    <a href="img/ships.jpg">Borealis</a>
+                    <a href="img/bubbleg.jpg">BubbleG</a>
+                    <a href="img/ecolife.jpg">Eco-life</a>
+                    <a href="https://www.spacex.com/rideshare/">Rideshare</a>
+                    
+                </div>                
+            </div>
+            </div>
+        </nav>

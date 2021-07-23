@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: aliceblue;
+}
+body {
+  margin: 0px;
+  font-family: "segoe ui";
+}
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  margin-top: 0%;
+  font-size: 30px;
+  font-weight: 500;
+  min-height: 0%;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: none;
+}
+.container .section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: vh;
+  filter: brightness(50%);
+}
+.container .section .content .height {
+  margin-bottom: 30%;
+}
+
+.container .section:nth-child(1) {
+  background-size: cover;
+  background-attachment: fixed;
+  left: 50px;
+}
+.container .section:nth-child(2) {
+  background: url(img/img2.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 400;
+}
+.container .section:nth-child(3) {
+  background: url(img/img3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container .section:nth-child(4) {
+  font-size: 12px;
+  height: 20%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  padding: 50px 0;
+}
+
+.container .section .content {
+  position: absolute;
+  bottom: 50px;
+  max-width: 700px;
+}
