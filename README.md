@@ -1,4 +1,4 @@
-# iceedge_daa
+# iceedge
 Website link : https://venkatsnv01.github.io/iceedge_daa/
 
 Hello All, I've created a simple website for my favourite restaurant Ice Edge Cafe using HTML,CSS and JavaScript.
