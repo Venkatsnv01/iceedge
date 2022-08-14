@@ -1,5 +1,5 @@
 # iceedge
-Website link : https://venkatsnv01.github.io/iceedge_daa/
+Website link : https://venkatsnv01.github.io/iceedge/
 
 Hello All, I've created a simple website for my favourite restaurant Ice Edge Cafe using HTML,CSS and JavaScript.
 This site is best compatible with desktop window
